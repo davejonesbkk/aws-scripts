@@ -9,7 +9,7 @@ then
 	exit 1
 fi
 
-if [ "$ACTION" = "delete" ] && [ -z $AGE ]:
+if [ "$ACTION" = "delete" ] && [ -z $AGE ];
 then
 	echo "Please enter the age of backups you would like to delete"
 	exit 1
